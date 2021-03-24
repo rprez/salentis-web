@@ -1399,7 +1399,7 @@ section {
 }
 
 .contact .info:hover i {
-  background: #fdd887;
+  background: #ED891E;
   color: #fff;
 }
 
@@ -2858,7 +2858,7 @@ font-weight: 600;
 }
 
 .flexbox-container a:hover span p{ /*el texto oculto que se ve en el hover*/
-  width: 130px; /*el ancho del fondo del texto */
+  width: 135px; /*el ancho del fondo del texto */
 /*lo movemos tomando en cuenta el padding que dimos para ampliar el marco*/
   height: 135px; /*la altura del fondo del texto*/
  
