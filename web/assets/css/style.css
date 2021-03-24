@@ -2819,8 +2819,8 @@ margin-right: 20px;
 }
 
 .flexbox-container > div {
-	width: 170px;
-  height: 170px;
+	width: 135px;
+  height: 135px;
 	padding: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -2828,8 +2828,8 @@ margin-right: 20px;
 }
 
 .flexbox-container img {
-	width: 170px;
-  height: 170px;
+  width: 130px;
+  height: 135px;
 }
 
 .flexbox-container > div:last-child {
@@ -2858,9 +2858,9 @@ font-weight: 600;
 }
 
 .flexbox-container a:hover span p{ /*el texto oculto que se ve en el hover*/
-  width: 170px; /*el ancho del fondo del texto */
+  width: 130px; /*el ancho del fondo del texto */
 /*lo movemos tomando en cuenta el padding que dimos para ampliar el marco*/
-  height: 170px; /*la altura del fondo del texto*/
+  height: 135px; /*la altura del fondo del texto*/
  
   padding: 25px; /*el padding arriba y abajo para separarlo del texto*/
   background-color:rgb(219,211,140) ; /*el color de fondo del texto*/
