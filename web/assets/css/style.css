@@ -60,22 +60,31 @@ body {
   width: 200px;
   transition: 0.25s;
 }
-.fw-400{
-  font-weight: 400;
-font-family: sans-serif;
-font-size: 16px;
-}
 p{
   font-weight: 500;
   color: rgb(22, 22, 22);
   font-size: 13px;
 }
+.fw-400{
+  font-weight: 400;
+font-family: sans-serif;
+font-size: 16px;
+}
+
+.fw-500{
+  font-weight: 600;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
 .fw-600{
   font-weight: 600;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
+
 
 a {
   color:white;
