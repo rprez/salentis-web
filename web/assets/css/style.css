@@ -2828,17 +2828,30 @@ margin-right: 20px;
 }
 
 .flexbox-container > div {
-	width: 135px;
-  height: 135px;
-	padding: 10px;
+  padding: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
   background: #fff;
 }
 
-.flexbox-container img {
-  width: 130px;
-  height: 135px;
+.flexbox-container-litore > div {
+	width: 188px;
+  height: 156px;
+}
+
+.flexbox-container-litore img {
+  width: 188px;
+  height: 156px;
+}
+
+.flexbox-container-novum > div {
+  width: 131.42px;
+  height: 156px;
+}
+
+.flexbox-container-novum img {
+  width: 131.42px;
+  height: 156px;
 }
 
 .flexbox-container > div:last-child {
@@ -2867,22 +2880,16 @@ font-weight: 600;
 }
 
 .flexbox-container a:hover span p{ /*el texto oculto que se ve en el hover*/
-  width: 135px; /*el ancho del fondo del texto */
-/*lo movemos tomando en cuenta el padding que dimos para ampliar el marco*/
-  height: 135px; /*la altura del fondo del texto*/
- 
+  /*lo movemos tomando en cuenta el padding que dimos para ampliar el marco*/
   padding: 25px; /*el padding arriba y abajo para separarlo del texto*/
   background-color:rgb(219,211,140) ; /*el color de fondo del texto*/
-  /*opacidad en los distintos navegadores*/
-  opacity: 0.9;
+  opacity: 0.9;  /*opacidad en los distintos navegadores*/
   filter:alpha(opacity=70);
   overflow: visible;
   cursor: pointer;
-  }
+}
   
 .flexbox-container a {
-    height:130px; /*la altura, que deberÃ¡ ser la misma que la de la imagen*/
-    width:130px; /*el ancho que deberÃ¡ ser el mismo que el de la imagen*/
     display: block;
     position: relative;
     top: 0;
@@ -2893,8 +2900,28 @@ font-weight: 600;
     color:#0e0d0d; /*el color del texto*/
     text-align: center; /*centramos el texto*/
     text-decoration: none; /*eliminamos subrayado del texto*/
-   
-    }
+}
+
+.flexbox-container-litore a:hover span p{
+  width: 188px; /*el ancho del fondo del texto */
+  height: 156px; /*la altura del fondo del texto*/
+}
+  
+.flexbox-container-litore a {
+  height:188px; /*la altura, que deberÃ¡ ser la misma que la de la imagen*/
+  width:156px; /*el ancho que deberÃ¡ ser el mismo que el de la imagen*/
+}
+
+.flexbox-container-novum a:hover span p{
+  width: 131.42px; /*el ancho del fondo del texto */
+  height: 156px; /*la altura del fondo del texto*/
+  margin-left: 12px;
+}
+  
+.flexbox-container-novum a {
+  height:131.42px; /*la altura, que deberÃ¡ ser la misma que la de la imagen*/
+  width:156px; /*el ancho que deberÃ¡ ser el mismo que el de la imagen*/
+}
    
 .flexbox-container span p{	
     width:0;
