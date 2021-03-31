@@ -108,33 +108,42 @@ li{
 
 h1, h2, h6 {
   font-family: "Raleway", sans-serif;
+  -webkit-font-feature-settings: "lnum";
+  -moz-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
   color:rgb(71, 60, 60);
   font-size:30px; 
   font-weight:bold;
 }
+
 h3{
   font-family: "Raleway", sans-serif;
+  -webkit-font-feature-settings: "lnum";
+  -moz-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
   color:rgb(71, 60, 60);
   font-size:25px; 
   font-weight:bold;
 }
+
 h4{
-  
-    font-family: "Raleway", sans-serif;
-    color:rgb(71, 60, 60);
-    font-size:20px; 
-    font-weight:bold;
-  
-  
-}
-h5{
-  
   font-family: "Raleway", sans-serif;
+  -webkit-font-feature-settings: "lnum";
+  -moz-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
+  color:rgb(71, 60, 60);
+  font-size:20px; 
+  font-weight:bold;
+}
+
+h5{
+  font-family: "Raleway", sans-serif;
+  -webkit-font-feature-settings: "lnum";
+  -moz-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
   color:rgb(0, 0, 0);
   font-size:18px; 
   font-weight:bold;
-
-
 }
 /*--------------------------------------------------------------
 # Back to top button
@@ -670,6 +679,9 @@ padding-top: 50px;
 
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
+  -webkit-font-feature-settings: "lnum";
+  -moz-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -1004,6 +1016,9 @@ section {
   padding: 0;
   margin: 0 0 20px 0;
   font-family: "Raleway", sans-serif;
+  -webkit-font-feature-settings: "lnum";
+  -moz-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
   font-size: 14px;
   color: #fff;
 }
@@ -1759,6 +1774,9 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
+  -webkit-font-feature-settings: "lnum";
+  -moz-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
   color: #fff;
 }
 
@@ -1915,21 +1933,24 @@ section {
  
 }
 .btn-galeria{
-    font-family: "Raleway", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 10px 18px;
-    border-radius: 5px;
-    transition: 0.5s;
-    line-height: 1;
-    margin: 5px;
-    color: #fff;
-    background: #f79333;
-    -webkit-animation-delay: 0.8s;
-    animation-delay: 0.8s;
-  }
+  font-family: "Raleway", sans-serif;
+  -webkit-font-feature-settings: "lnum";
+  -moz-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 5px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 5px;
+  color: #fff;
+  background: #f79333;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
   
   .btn-galeria:hover {
     background: #ece9e4;
@@ -2704,9 +2725,11 @@ button.button-chatbot-square {
   color: black;
 }
 .b-verdi{
-  position: relative;
-  
+  position: relative;  
   font-family: "Raleway", sans-serif;
+  -webkit-font-feature-settings: "lnum";
+  -moz-font-feature-settings: "lnum";
+  font-feature-settings: "lnum";
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
