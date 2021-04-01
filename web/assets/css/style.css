@@ -569,12 +569,14 @@ padding-top: 50px;
   margin: 0 auto 30px auto;
   color: black;
   font-size: 14px;
+  background-color:rgb(242, 242, 242, .8);
   font-weight: bold;
+  border-radius: 2%;
+  padding: 10px 10px;
+ 
 }
+ 
 
-#hero mark{
-  background-color: rgb(233, 232, 232);
-}
 
 .owl-carousel .owl-item img {
   height: 500px;
