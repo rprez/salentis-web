@@ -704,6 +704,7 @@ padding-top: 50px;
 @media (max-width: 768px) {
   #hero {
     height: 90vh;
+    max-height: 450px;
   }
   #hero .carousel-item {
     height: 90vh;
@@ -2989,7 +2990,7 @@ font-weight: 600;
   
   video {
     min-width: 100%;
-    min-height: 90vh;
+    max-height: 454px;
     z-index: 1;
   }
 }
