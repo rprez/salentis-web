@@ -571,12 +571,9 @@ padding-top: 50px;
   font-size: 14px;
   background-color:rgb(242, 242, 242, .8);
   font-weight: bold;
-  border-radius: 2%;
+  border-radius: 15px;
   padding: 10px 10px;
- 
 }
- 
-
 
 .owl-carousel .owl-item img {
   height: 500px;
