@@ -2944,14 +2944,13 @@ span p{
 }
 
 .flexbox-container-novum a:hover span p{
-  width: 131.42px; /*el ancho del fondo del texto */
+  width: 131.41px; /*el ancho del fondo del texto */
   height: 156px; /*la altura del fondo del texto*/
-  margin-left: 12px;
 }
   
 .flexbox-container-novum a {
-  height:131.42px; /*la altura, que deberia ser la misma que la de la imagen*/
-  width:156px; /*el ancho que deberia ser el mismo que el de la imagen*/
+  height:156px; /*la altura, que deberia ser la misma que la de la imagen*/
+  width:131.41px; /*el ancho que deberia ser el mismo que el de la imagen*/
 }
    
 .flexbox-container span p{	
