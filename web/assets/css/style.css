@@ -2981,6 +2981,17 @@ span p{
   height: 329px;
 }
 
+.thanks-title {
+  color:#10731A; 
+  font-size: 40px; 
+  font-weight: bold
+}
+
+.thanks-text {
+  font-size: 22px; 
+  font-weight: bold;
+}
+
 @media (max-width:768px){
   #float-whatsapp .btn{
     font-size: 0.75rem;
@@ -3013,6 +3024,17 @@ span p{
     padding-inline: unset;
     font-weight: bold;
     margin-left: 35px;
+  }
+
+  .thanks-title {
+    color:#10731A; 
+    font-size: 36px; 
+    font-weight: bold
+  }
+
+  .thanks-text {
+    font-size: 20px; 
+    font-weight: bold;
   }
 }
 
