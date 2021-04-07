@@ -1588,15 +1588,11 @@ section {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
-  background:rgb(231, 240,244
-  );
-
+  background:rgb(231, 240,244);
 }
-
 
 .portfolio-details .portfolio-details-container {
   position: relative;
-  
 }
 
 .litore-img{
@@ -1606,6 +1602,15 @@ section {
 .litore-img img{
   -webkit-box-shadow: 3px 3px 9px 3px rgba(0,0,0,0.49), -3px -3px 9px 3px rgba(0,0,0,0.49); 
   box-shadow: 3px 3px 9px 3px rgba(0,0,0,0.49), -3px -3px 9px 3px rgba(0,0,0,0.49);
+}
+
+.litore-fin-align {
+  margin-left: -35px;
+}
+
+.litore-fin-list {
+  padding-inline: revert; 
+  font-weight: bold;
 }
 
 .portfolio-details .portfolio-details-carousel {
@@ -2999,6 +3004,16 @@ span p{
 
   #hero .carousel-indicators {
     display: none;
+  }
+
+  .litore-fin-align {
+    margin-left: 0;
+  }
+
+  .litore-fin-list{
+    padding-inline: unset;
+    font-weight: bold;
+    margin-left: 35px;
   }
 }
 
