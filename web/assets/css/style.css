@@ -2153,7 +2153,7 @@ button.button-chatbot-square {
   }
   
   #sy-whatshelp a.sywh-open-services {
-    background-color: #55dd50;
+    background-color: #188344f3;
     color: #fff;
     line-height: 55px;
     margin-top: 10px;
@@ -2909,8 +2909,18 @@ span p{
   color: black;
   font-weight: 600;
 }
-
+/*PLANOS HOVER NOVUM*/
 .flexbox-container a:hover span p{ /*el texto oculto que se ve en el hover*/
+  /*lo movemos tomando en cuenta el padding que dimos para ampliar el marco*/
+  padding: 25px; /*el padding arriba y abajo para separarlo del texto*/
+  background-color:rgb(231,240,244) ; /*el color de fondo del texto*/
+  opacity: 0.9;  /*opacidad en los distintos navegadores*/
+  filter:alpha(opacity=70);
+  overflow: visible;
+  cursor: pointer;
+}
+/*PLANOS HOVER LITORE*/
+.flexbox-container-litore a:hover span p{ /*el texto oculto que se ve en el hover*/
   /*lo movemos tomando en cuenta el padding que dimos para ampliar el marco*/
   padding: 25px; /*el padding arriba y abajo para separarlo del texto*/
   background-color:rgb(219,211,140) ; /*el color de fondo del texto*/
@@ -2919,6 +2929,7 @@ span p{
   overflow: visible;
   cursor: pointer;
 }
+
   
 .flexbox-container a {
   display: block;
@@ -2968,6 +2979,8 @@ span p{
   text-decoration: none; /*eliminamos subrayado del texto*/
   white-space:pre;
 }
+
+
 
 /* FIN DE SECCION PLANOS DE LOS PROYECTOS */
 
