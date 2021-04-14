@@ -3102,6 +3102,33 @@ span p{
   .agency-text-responsive{
     padding: 0px !important;
   }
+  .funding-section-resize{
+    padding: 20px 15px 0 15px;
+  }
+  #financiamiento-img-novum{
+    width: 200px !important;
+    margin-right: -50% !important;
+    margin-left: 50% !important;
+  }
+  #financiamiento-img-novum img{
+    width: 200px !important;
+  }
+  #financiamiento-rai-novum{
+    width: 185px !important;
+    margin-right: 50% !important;
+    margin-left: -50% !important;
+  }
+  #financiamiento-rai-novum-inner{
+    margin-top: 18px !important;
+  }
+  #financiamiento-rai-novum-number{
+    font-size: 60px !important;
+    text-align: center !important;
+  }
+  #financiamiento-rai-novum-text{
+    font-size: 10.5px !important;
+    padding: 0 !important;
+  }
 }
 
 @media (max-width: 424px){
@@ -3136,6 +3163,33 @@ span p{
   }
   .agency-text-responsive{
     padding: 0px !important;
+  }
+  .funding-section-resize{
+    padding: 20px 15px 0 15px;
+  }
+  #financiamiento-img-novum{
+    width: 180px !important;
+    margin-right: -50% !important;
+    margin-left: 50% !important;
+  }
+  #financiamiento-img-novum img{
+    width: 180px !important;
+  }
+  #financiamiento-rai-novum{
+    width: 160px !important;
+    margin-right: 50% !important;
+    margin-left: -50% !important;
+  }
+  #financiamiento-rai-novum-inner{
+    margin-top: 18px !important;
+  }
+  #financiamiento-rai-novum-number{
+    font-size: 60px !important;
+    text-align: center !important;
+  }
+  #financiamiento-rai-novum-text{
+    font-size: 10.3px !important;
+    padding: 0 !important;
   }
 }
 
@@ -3187,6 +3241,33 @@ span p{
   .funding-font-resize-verdi{
     font-size: 14.2px !important;
   }
+  .funding-section-resize{
+    padding: 20px 15px 0 15px;
+  }
+  #financiamiento-img-novum{
+    width: 180px !important;
+    margin-right: -50% !important;
+    margin-left: 50% !important;
+  }
+  #financiamiento-img-novum img{
+    width: 180px !important;
+  }
+  #financiamiento-rai-novum{
+    width: 120px !important;
+    margin-right: 50% !important;
+    margin-left: -50% !important;
+  }
+  #financiamiento-rai-novum-inner{
+    margin-top: 18px !important;
+  }
+  #financiamiento-rai-novum-number{
+    font-size: 50px !important;
+    text-align: center !important;
+  }
+  #financiamiento-rai-novum-text{
+    font-size: 8.9px !important;
+    padding: 0 !important;
+  }
 }
 
 @media (max-width: 360px){
@@ -3237,6 +3318,36 @@ span p{
   .funding-font-resize-verdi{
     font-size: 14.2px !important;
   }
+  .funding-section-resize{
+    padding: 20px 15px 0 15px;
+  }
+  .funding-section-resize p{
+    font-size: 14.4px;
+  }
+  #financiamiento-img-novum{
+    width: 160px !important;
+    margin-right: -50% !important;
+    margin-left: 50% !important;
+  }
+  #financiamiento-img-novum img{
+    width: 160px !important;
+  }
+  #financiamiento-rai-novum{
+    width: 135px !important;
+    margin-right: 50% !important;
+    margin-left: -50% !important;
+  }
+  #financiamiento-rai-novum-inner{
+    margin-top: 18px !important;
+  }
+  #financiamiento-rai-novum-number{
+    font-size: 46px !important;
+    text-align: center !important;
+  }
+  #financiamiento-rai-novum-text{
+    font-size: 8.3px !important;
+    padding: 0 !important;
+  }
 }
 
 @media (max-width: 320px){
@@ -3270,5 +3381,35 @@ span p{
   }
   .funding-font-resize-verdi{
     font-size: 14.2px !important;
+  }
+  .funding-section-resize{
+    padding: 20px 15px 0 15px;
+  }
+  .funding-section-resize p{
+    font-size: 12.4px;
+  }
+  #financiamiento-img-novum{
+    width: 150px !important;
+    margin-right: -50% !important;
+    margin-left: 50% !important;
+  }
+  #financiamiento-img-novum img{
+    width: 150px !important;
+  }
+  #financiamiento-rai-novum{
+    width: 95px !important;
+    margin-right: 50% !important;
+    margin-left: -50% !important;
+  }
+  #financiamiento-rai-novum-inner{
+    margin-top: 18px !important;
+  }
+  #financiamiento-rai-novum-number{
+    font-size: 46px !important;
+    text-align: center !important;
+  }
+  #financiamiento-rai-novum-text{
+    font-size: 8.3px !important;
+    padding: 0 !important;
   }
 }
