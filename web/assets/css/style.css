@@ -2983,17 +2983,6 @@ span p{
 
 
 /* FIN DE SECCION PLANOS DE LOS PROYECTOS */
-
-.tour-virtual-youtube {
-  width: 650px; 
-  height: 366px;
-}
-
-.tour-virtual {
-  width: 650px; 
-  height: 329px;
-}
-
 .thanks-title {
   color:#10731A; 
   font-size: 40px; 
@@ -3008,15 +2997,6 @@ span p{
 @media (max-width:768px){
   #float-whatsapp .btn{
     font-size: 0.75rem;
-  }
-  
-  .tour-virtual-youtube {
-    width: 100%; 
-    height: 366px;
-  }
-
-  .tour-virtual {
-    width: 100%;
   }
   
   video {
@@ -3069,6 +3049,15 @@ span p{
 
 #lightbox .lb-outerContainer {
   order: 1;
+}
+
+@media (min-width:1024px){
+  .tour-virtual{
+    width: 650px !important;
+    height: 366px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (max-width:1023px){
