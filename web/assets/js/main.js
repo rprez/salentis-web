@@ -191,22 +191,6 @@
     });
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    items: 1
-  });
-
-  // Portfolio details carousel
-  $(".portfolio-details-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    items: 1
-  });
-
 })(jQuery);
 
 jQuery(function ($) {
@@ -246,7 +230,8 @@ $('.owl-carousel').owlCarousel({
   nav:true,
   responsive:{
       0:{
-          items:1
+          items:1,
+          autoplaySpeed:1500,
       },
       600:{
           items:3
@@ -254,7 +239,9 @@ $('.owl-carousel').owlCarousel({
       1000:{
           items:3
       }
-  }
+  },
+  autoWidth:true,
+  autoHeight:true
 })
 
 var datanum = 0;
