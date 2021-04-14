@@ -3113,9 +3113,6 @@ span p{
   .agency-text-responsive{
     padding: 0px !important;
   }
-  .funding-font-resize{
-    font-size: 11.4px !important;
-  }
 }
 
 @media (max-width: 424px){
@@ -3150,9 +3147,6 @@ span p{
   }
   .agency-text-responsive{
     padding: 0px !important;
-  }
-  .funding-font-resize{
-    font-size: 11.4px !important;
   }
 }
 
@@ -3195,7 +3189,14 @@ span p{
     font-size: 13.5px !important;
   }
   .funding-font-resize{
-    font-size: 11.4px !important;
+    font-size: 17.4px !important;
+  }
+  .funding-div-resize-verdi{
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .funding-font-resize-verdi{
+    font-size: 14.2px !important;
   }
 }
 
@@ -3238,7 +3239,14 @@ span p{
     font-size: 12.6px !important;
   }
   .funding-font-resize{
-    font-size: 11.4px !important;
+    font-size: 16.5px !important;
+  }
+  .funding-div-resize-verdi{
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .funding-font-resize-verdi{
+    font-size: 14.2px !important;
   }
 }
 
@@ -3265,6 +3273,13 @@ span p{
     font-size: 10.4px !important;
   }
   .funding-font-resize{
-    font-size: 11.4px !important;
+    font-size: 14.2px !important;
+  }
+  .funding-div-resize-verdi{
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .funding-font-resize-verdi{
+    font-size: 14.2px !important;
   }
 }
