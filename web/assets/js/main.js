@@ -230,8 +230,8 @@ $('.owl-carousel').owlCarousel({
   nav:true,
   responsive:{
       0:{
-          items:1,
-          autoplaySpeed:1500,
+          singleItem:true,
+          center:true
       },
       600:{
           items:3

@@ -575,7 +575,6 @@ padding-top: 50px;
 }
 
 .owl-carousel .owl-item img {
-  height: 500px;
   width: auto;
 }
 
@@ -707,13 +706,16 @@ padding-top: 50px;
 @media (max-width: 768px) {
   #hero {
     height: 90vh;
-    max-height: 450px;
+    max-height: 225px;
   }
   #hero .carousel-item {
     height: 90vh;
   }
   #hero h2 {
     font-size: 28px;
+  }
+  #hero video{
+    min-height: 0 !important;
   }
 }
 
@@ -2979,7 +2981,10 @@ span p{
   white-space:pre;
 }
 
-
+.tour-virtual{
+  width: 650px;
+  height: 366px;
+}
 
 /* FIN DE SECCION PLANOS DE LOS PROYECTOS */
 .thanks-title {
@@ -2997,10 +3002,15 @@ span p{
   #float-whatsapp .btn{
     font-size: 0.75rem;
   }
-  
+
+  /*.tour-virtual-youtube{
+    width: 100%;
+    height: 366px;
+  }*/
+
   video {
     min-width: 100%;
-    max-height: 454px;
+    max-height: 225px;
     z-index: 1;
   }
 
@@ -3068,11 +3078,24 @@ span p{
   }
   .tour-virtual{
     width: 100% !important;
+    height: 402.6px;
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
   .banner-bg{
     background-image: linear-gradient(to top, rgb(196,197,199), rgb(236,236,236));
+  }
+  
+  #hero img {
+    min-width: 100%;
+    max-height: 225px;
+    z-index: 1;
+  }
+  
+  #galeria-carusel img {
+    min-width: 100%;
+    max-height: 225px;
+    z-index: 1;
   }
 }
 
