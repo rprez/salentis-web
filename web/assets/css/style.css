@@ -205,9 +205,8 @@ div.owl-nav{
 }
 
 .banner-bg{
-background-image: url("../img/financiamiento/banner.png");
+  background-image: linear-gradient(to right, rgb(196,197,199), rgb(236,236,236));
 }
- 
 
 #topbar .contact-info a {
   line-height: 1;
@@ -3067,6 +3066,14 @@ span p{
   .suscribe-resize{
     margin-right: 20px !important;
   }
+  .tour-virtual{
+    width: 100% !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .banner-bg{
+    background-image: linear-gradient(to top, rgb(196,197,199), rgb(236,236,236));
+  }
 }
 
 @media (max-width: 450px){
@@ -3176,7 +3183,7 @@ span p{
     width: 180px !important;
   }
   #financiamiento-rai-novum{
-    width: 160px !important;
+    width: 180px !important;
     margin-right: 50% !important;
     margin-left: -50% !important;
   }
@@ -3253,7 +3260,7 @@ span p{
     width: 180px !important;
   }
   #financiamiento-rai-novum{
-    width: 120px !important;
+    width: 140px !important;
     margin-right: 50% !important;
     margin-left: -50% !important;
   }
@@ -3333,7 +3340,7 @@ span p{
     width: 160px !important;
   }
   #financiamiento-rai-novum{
-    width: 135px !important;
+    width: 150px !important;
     margin-right: 50% !important;
     margin-left: -50% !important;
   }
@@ -3397,7 +3404,7 @@ span p{
     width: 150px !important;
   }
   #financiamiento-rai-novum{
-    width: 95px !important;
+    width: 105px !important;
     margin-right: 50% !important;
     margin-left: -50% !important;
   }
