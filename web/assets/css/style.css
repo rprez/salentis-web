@@ -3042,6 +3042,12 @@ span p{
     height: 366px;
   }*/
 
+
+  a[data-tooltip]::before,
+  a[data-tooltip]::after {
+    display: block;
+  }
+  
   video {
     min-width: 100%;
     max-height: 225px;
