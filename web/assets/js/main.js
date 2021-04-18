@@ -228,10 +228,10 @@ $('.owl-carousel').owlCarousel({
   loop:true,
   margin:5,
   nav:true,
+  center:true,
   responsive:{
       0:{
-          singleItem:true,
-          center:true
+          items:1
       },
       600:{
           items:3
