@@ -485,7 +485,7 @@ i.fa.fa-user.icon{
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: rgb(177,55 , 75);
+  color: rgb(177,75, 55);
   text-decoration: none;
 }
 
