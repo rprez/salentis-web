@@ -608,12 +608,12 @@ padding-top: 50px;
   padding: 10px 10px;
 }
 
-.owl-carousel .owl-item img {
-  width: auto;
-}
-
 .owl-carousel .owl-item {
   width: auto !important;
+}
+
+.owl-carousel .owl-item img {
+  width: auto;
 }
 
 .owl-carousel .owl-stage-outer {
@@ -3104,6 +3104,12 @@ span p{
     height: 366px !important;
     margin-left: auto;
     margin-right: auto;
+  }
+  .owl-carousel .owl-item img {
+    height: 500px !important;
+  }
+  .owl-carousel .owl-stage-outer {
+    height: 500px !important;
   }
 }
 
