@@ -485,7 +485,7 @@ i.fa.fa-user.icon{
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: rgb(177,75, 55);
+  color: #B14B37;
   text-decoration: none;
 }
 
@@ -1924,7 +1924,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: rgb(177,75, 55);;
+  background: #B14B37;
 }
 
 .example {
@@ -2516,7 +2516,7 @@ button.button-chatbot-square {
 }
 
 .navbar-inverse .navbar-brand:hover {
-  color:  rgb(177,75, 55);
+  color: #B14B37
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -2525,19 +2525,19 @@ button.button-chatbot-square {
 
 .navbar-inverse .navbar-nav>li>a:hover,
 .navbar-inverse .navbar-nav>li>a:focus {
-  color:  rgb(177,75, 55);
+  color: #B14B37
 }
 
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.open>a,
 .navbar-inverse .navbar-nav>.open>a:hover,
 .navbar-inverse .navbar-nav>.open>a:focus {
-  color:  rgb(177,75, 55);
+  color: #B14B37
 }
 
 .navbar-inverse .navbar-nav>.active>a:hover,
 .navbar-inverse .navbar-nav>.active>a:focus {
-  color: rgb(177,75, 55);
+  color: #B14B37
 }
 
 .dropdown-menu>li>a {
@@ -2546,7 +2546,7 @@ button.button-chatbot-square {
 
 .dropdown-menu>li>a:hover,
 .dropdown-menu>li>a:focus {
-  color: rgb(177,75, 55);
+  color: #B14B37
 }
 
 .navbar-inverse .navbar-nav>.dropdown>a .caret {
