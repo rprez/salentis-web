@@ -287,3 +287,9 @@ $(document).ready(function() {
         }
     });
 });
+
+
+//DESACTIVAR CLICK DERECHO EN TODA LA WEB
+$('body').on('contextmenu', function(e){
+  return false;
+})
