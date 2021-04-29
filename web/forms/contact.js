@@ -137,7 +137,7 @@ jQuery(document).ready(function($) {
 
     $.ajax({
       type: "POST",
-      url: "https://salentisdev.mythologylabs.com.uy/api/salentis/send_email_to_salentis",
+      url: "https://admin.salentis-edificios.com/api/salentis/send_email_to_salentis",
       data: parameters,
     }).done( function(msg){
       console.log(msg);
