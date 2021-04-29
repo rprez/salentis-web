@@ -140,7 +140,7 @@ jQuery(document).ready(function($) {
       url: "https://admin.salentis-edificios.com/api/salentis/send_email_to_salentis",
       headers: { 
         'Authorization': 'Basic asdf3432lkjklh2354kljbklkj3==',
-        'Access-Control-Allow-Origin': 'http://clientdomain.dev'//,
+        'Access-Control-Allow-Origin': 'http://salentis-edificios.com/'//,
       },
       data: parameters,
     }).done( function(msg){
