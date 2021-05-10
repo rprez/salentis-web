@@ -215,6 +215,7 @@ jQuery(function ($) {
       $('.sywh-services a:nth-child(3)').delay(200).fadeIn();
       $('.sywh-services a:nth-child(2)').delay(300).fadeIn();
       $('.sywh-services a:nth-child(1)').delay(400).fadeIn();
+      $('.sywh-services').children().css('display','inline-block');
     }
   });
 });

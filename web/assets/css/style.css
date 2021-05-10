@@ -2300,7 +2300,7 @@ button.button-chatbot-square {
   }
   
   a[data-tooltip][data-placement="left"]::before {
-    top: -7px;
+    top: 23px;
     right: 100%;
     line-height: normal;
     margin-right: 10px;
