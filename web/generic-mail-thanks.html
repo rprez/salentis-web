@@ -48,6 +48,7 @@
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
 
+			gtag('config', 'UA-106503520-1');
 			gtag('config', 'AW-854335246');
 		</script>
 		<!-- Event snippet for Formulario contacto Ads conversion page --> 
@@ -125,9 +126,10 @@
 		<!-- ======= Whatsapp Section ======= -->
 		<div id="sy-whatshelp">
 			<div class="sywh-services">
-				<a onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=+59899117523&text=Hola Matías me gustaría más infomación sobre Salentis');" href="https://api.whatsapp.com/send?phone=+59899117523&text=Hola Matías me gustaría más infomación sobre Salentis" class="whatsapp" data-tooltip="Matías Pérez - Ventas" data-placement="left" target="_blank">
+				<a onclick="gtag('event', 'contacto_directo', { 'event_category': 'WhatsApp', 'event_label': 'Label_whatsapp', 'value': 1 });" href="https://api.whatsapp.com/send?phone=+59899117523&text=Hola Matías me gustaría más infomación sobre Salentis" class="whatsapp" data-tooltip="Matías Pérez - Ventas" data-placement="left" target="_blank">
 					<i class="fa fa-whatsapp"></i>
 				</a>
+
 				<a href="https://api.whatsapp.com/send?phone=+59899692977=&text=Hola, me gustaría más infomación sobre Salentis" class="whatsapp" data-tooltip="Administración" data-placement="left" target="_blank">
 					<i class="fa fa-whatsapp"></i>
 				</a>
