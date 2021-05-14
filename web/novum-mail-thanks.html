@@ -49,6 +49,7 @@
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
 
+			gtag('config', 'UA-106503520-1');
 			gtag('config', 'AW-854335246');
 		</script>
 		<!-- Event snippet for Formulario contacto Ads conversion page --> 
@@ -61,19 +62,19 @@
 				<div class="row d-flex justify-content-center">
 					<div class="col-md-3 center">
 						<i class="icofont-envelope" style="color: aliceblue;"></i>
-						<a href="mailto:inmobiliarias@salentis-edificios.com" style="font-weight: bold;">ventas@salentis-edificios.com</a>
+						<a href="mailto:ventas@salentis-edificios.com" style="font-weight: bold;">ventas@salentis-edificios.com</a>
 					</div>
 					<div class="col-md-2 center inner-table">
 						<p>
 							<i class="icofont-phone" style="color: aliceblue;"></i>
-							<a href="tel:+ 598 2902 99 25" style="font-weight: bold;">+ 598 2902 99 25</a>
+							<a href="tel:+59829029925" style="font-weight: bold;">(+598) 2902 99 25</a>
 						</p>
 						<p style="font-weight: bold;">Lun. a Vier. de 10 a 18hs</p>
 					</div>
 					<div class="col-md-2 center">
 						<p>
 							<i class="icofont-phone" style=" color: aliceblue;"></i>
-							<a href="tel:+ 598 2902 77 94" style="font-weight: bold;">+ 598 2902 77 94</a>
+							<a href="tel:+59829027794" style="font-weight: bold;">(+598) 2902 77 94</a>
 						</p>
 						<p style="font-weight: bold;">Lun. a Vier. de 10 a 18hs</p>
 					</div>
@@ -95,7 +96,7 @@
 					<ul>
 						<li><a href="index.html"><i class="d-block d-sm-block d-md-none fa fa-home icon"></i>Inicio</a></li>
 						<li class="dropdown">
-							<a class="dropbtn"><i class="fa fa-building icon d-block d-sm-block d-md-none "></i>Proyectos<b class="caret"></b></a>
+							<a class="dropbtn"><i class="fa fa-building icon d-block d-sm-block d-md-none"></i>Proyectos<b class="caret"></b></a>
 							<ul class="dropdown-menu">
 								<li><a href="litore.html" style="text-align: center;">Salentis Litore</a></li>
 								<li><a href="novum.html" style="text-align: center;">Salentis Novum</a></li>
@@ -124,23 +125,23 @@
 		</main>
 
 		<!-- ======= Whatsapp Section ======= -->
-    <div id="sy-whatshelp">
-      <div class="sywh-services">
-        <a onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=+598 99 117 523&text=Hola Matías me gustaría más infomación sobre Salentis');" href="https://api.whatsapp.com/send?phone=+598 99 117 523&text=Hola Matías me gustaría más infomación sobre Salentis" class="whatsapp" data-tooltip="Matías Pérez - Ventas" data-placement="left" target="_blank">
-          <i class="fa fa-whatsapp"></i>
-        </a>
-        <a href="https://api.whatsapp.com/send?phone=+ 598 99 692 977=&text=Hola, me gustaría más infomación sobre Salentis" class="whatsapp" data-tooltip="Administración" data-placement="left" target="_blank">
-          <i class="fa fa-whatsapp"></i>
-        </a>
-        <a href="tel:+ 2902.99.25" class="call" data-tooltip="Casa Central" data-placement="left">
-          <i class="fa fa-phone"></i>
-        </a>
-      </div>
-      <a class="sywh-open-services" data-tooltip="Contactanos" data-placement="left">
-		<i class="fa fa-comments"></i>
-		<i class="fa fa-times"></i>
-	  </a>
-    </div>
+		<div id="sy-whatshelp">
+			<div class="sywh-services">
+				<a onclick="gtag('event', 'contacto_directo', { 'event_category': 'WhatsApp', 'event_label': 'Label_whatsapp', 'value': 1 });" href="https://api.whatsapp.com/send?phone=+59899117523&text=Hola Matías me gustaría más infomación sobre Salentis" class="whatsapp" data-tooltip="Matías Pérez - Ventas" data-placement="left" target="_blank">
+					<i class="fa fa-whatsapp"></i>
+				</a>
+				<a href="https://api.whatsapp.com/send?phone=+59899692977=&text=Hola, me gustaría más infomación sobre Salentis" class="whatsapp" data-tooltip="Administración" data-placement="left" target="_blank">
+					<i class="fa fa-whatsapp"></i>
+				</a>
+				<a href="tel:+59829029925" class="call" data-tooltip="Casa Central" data-placement="left">
+					<i class="fa fa-phone"></i>
+				</a>
+			</div>
+			<a class="sywh-open-services" data-tooltip="Contactanos" data-placement="left">
+				<i class="fa fa-comments"></i>
+  			<i class="fa fa-times"></i>
+			</a>
+		</div>
     <!-- ======= End Whatsapp Section ======= -->
 
     <!-- ======= Footer ======= -->
@@ -158,8 +159,8 @@
             </div>
           </div>
         </div>
-        <p class="col-8 col-lg-2 text-center text-white" style="width: 200px;margin-left: auto;margin-right: auto;">Síguenos para obtener más información actualizada</p>
-        <p class="col-5 col-lg-2 text-center text-white" style="margin: -10px auto 5px auto;"><a href="https://www.mythologylabs.com.uy" target="_blank">MythologyLabs</a></p>
+        <p class="col-10 col-lg-2 text-center text-white" style="width: 200px;margin-left: auto;margin-right: auto;">Síguenos para obtener más información actualizada</p>
+        <p class="col-5 col-lg-2 text-center text-white" style="margin: -10px auto 5px auto;"><a href="https://www.mythologylabs.com.uy" target="_blank">Mythology Labs</a></p>
       </div>
     </footer>
     <!-- ======= End Footer ======= -->
@@ -181,5 +182,10 @@
 
 		<!-- Main JS File -->
 		<script src="assets/js/main.js"></script>
+		<script>
+    	setTimeout(function(){
+      	window.history.back();
+      }, 30000);
+    </script>
 	</body>
 </html>
