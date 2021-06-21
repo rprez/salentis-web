@@ -57,11 +57,11 @@
 		<script> 
 			function gtag_report_conversion(url) { 
 				var callback = function () { 
-					if (typeof(url) != 'undefined') { window.location = url; } 
+					// if (typeof(url) != 'undefined') { window.location = url; } 
 				}; 
 				
 				gtag('event', 'conversion', { 'send_to': 'AW-854335246/-YqwCKrh7okCEI6-sJcD', 'event_callback': callback });
-				return false;
+				return true;
 			} 
 		</script>
 	</head>
