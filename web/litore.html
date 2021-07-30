@@ -49,6 +49,14 @@
 		<!-- Main CSS File -->
 		<link href="assets/css/style.css" rel="stylesheet">
 
+		<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-KTPRSX4');</script>
+	<!-- End Google Tag Manager -->
+
 		<!-- Global site tag (gtag.js) - Google Ads: 854335246 --> 
 		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-854335246"></script>
 		<script>
@@ -58,20 +66,12 @@
 
 			gtag('config', 'AW-854335246');
 		</script>
-
-		<!-- Event snippet for Botón de WhatsApp conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. --> 
-		<script> 
-			function gtag_report_conversion(url) { 
-				var callback = function () { 
-					if (typeof(url) != 'undefined') { window.location = url; } 
-				}; 
-
-				gtag('event', 'contacto_directo', { 'event_category': 'WhatsApp', 'event_label': 'Label_whatsapp', 'value': 1 });
-				return true;
-			} 
-		</script>
 	</head>
 	<body>
+		<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTPRSX4"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 		<!-- ======= Top Bar ======= -->
 		<section id="topbar" class="d-none d-lg-block">
 			<div class="container" style="margin-left: 0 !important;">
@@ -469,7 +469,7 @@
 		<!-- ======= Whatsapp Section ======= -->
 		<div id="sy-whatshelp">
 			<div class="sywh-services">
-				<a onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=+59898630063&text=Hola%20Salentis,%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20proyectos');" href="https://api.whatsapp.com/send?phone=+59898630063&text=Hola Salentis, me gustaría más información sobre los proyectos" class="whatsapp" data-tooltip="Ventas Salentis" data-placement="left" target="_blank">
+				<a href="https://api.whatsapp.com/send?phone=+59898630063&text=Hola Salentis, me gustaría más información sobre los proyectos" class="whatsapp" data-tooltip="Ventas Salentis" data-placement="left" target="_blank">
 					<i class="fa fa-whatsapp"></i>
 				</a>
 				<a href="https://api.whatsapp.com/send?phone=+59899692977=&text=Hola, me gustaría más infomación sobre Salentis" class="whatsapp" data-tooltip="Administración" data-placement="left" target="_blank">
