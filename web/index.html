@@ -329,7 +329,7 @@
 											</div>
 										</div>
 										<div class="btn-wrapper">
-											<button class="view-btn"><a href="novum.html" style="font-size:13px;">PRONTO PARA OCUPAR</a></button>
+											<button class="view-btn"><a href="novum.html" style="font-size:13px;">UNIDADES EN PROMOCIÓN</a></button>
 										</div>
 									</div>
 								</div>
@@ -352,7 +352,7 @@
 											</div>
 										</div>
 										<div class="btn-wrapper">
-											<button class="view-btn"><a href="verdi.html" style="font-size:13px;">UNIDADES EN PROMOCIÓN</a></button>
+											<button class="view-btn"><a href="verdi.html" style="font-size:13px;">VENDIDO</a></button>
 										</div>
 									</div>
 								</div>
@@ -602,5 +602,14 @@
 
 		<!-- Main JS File -->
 		<script src="assets/js/main.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				if (sessionStorage.getItem('popsalen') == null) {
+					$('#suscriptionModal').modal('show');
+					sessionStorage.setItem('popsalen', 'visto');
+				}
+		});
+   		</script>
 	</body>
 </html>
