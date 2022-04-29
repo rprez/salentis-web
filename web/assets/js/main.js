@@ -294,3 +294,31 @@ $(document).ready(function() {
 $('body').on('contextmenu', function(e){
   return false;
 })
+
+// popup de suscripcion si no se mostro en la sesion 
+$(document).ready(function() {
+  if (sessionStorage.getItem('popsalen') == null) {
+    $('#suscriptionModal').modal('show');
+    sessionStorage.setItem('popsalen', 'visto');
+  }
+});
+
+// Si campos son correctos en popup de suscripcion, redirecciona a pagina de suscripcion exitosa
+$('#popup-mc-embedded-subscribe').on("click", function() {
+  var nombre = $('#mce-FNAME').val();
+  var email = $('#mce-EMAIL').val();
+  if(nombre !== '' && validarEmail(email)){
+    setTimeout(
+    function(){
+      window.location.href = "./subscription-thanks.html";
+    }, 1000
+  )
+  }
+  
+});
+
+// Validar email
+function validarEmail(email) {
+  var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(String(email).toLowerCase());
+}
