@@ -291,9 +291,9 @@ $(document).ready(function() {
 
 
 //DESACTIVAR CLICK DERECHO EN TODA LA WEB
-$('body').on('contextmenu', function(e){
-  return false;
-})
+//$('body').on('contextmenu', function(e){
+ // return false;
+//})
 
 // popup de suscripcion si no se mostro en la sesion 
 $(document).ready(function() {
