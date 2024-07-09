@@ -1,5 +1,5 @@
 <?
-
+echo 'ok';
 date_default_timezone_set ('America/Argentina/Buenos_Aires');
         $data = array(
             'secret' => "6LdvZdEUAAAAAEYtulY3BP0WaYPxNgyyTx36H8tn",
